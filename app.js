@@ -29,7 +29,7 @@ server.listen(port, function (error) {
 // Routes 
 /**
  * @swagger
- * /Get_All_Point:
+ * /getAllPoint:
  *  get:
  *    description: Use to request all customers
  *    responses:
@@ -48,7 +48,7 @@ server.listen(port, function (error) {
 
 /**
  * @swagger
- * /Get_All_Zone:
+ * /getAllZone:
  *  get:
  *    description: Use to request all customers
  *    responses:
@@ -66,7 +66,7 @@ server.listen(port, function (error) {
 
 /**
  * @swagger
- * /Create_Point:
+ * /createPoint:
  *  post:
  *    description: Use to request all customers
  *    responses:
@@ -87,7 +87,7 @@ app.post('/send', (req, res) => {
 
 /**
  * @swagger
- * /Update_Point:
+ * /updatePoint:
  *  put:
  *    description: Use to request all customers
  *    responses:
